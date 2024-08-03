@@ -11,6 +11,13 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | 3-column preview card component</title>
 
@@ -19,6 +26,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: #333;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -31,8 +39,8 @@
         <div class="card_container__card sedan">
           <div class="content">
             <img src="./images/icon-sedans.svg" alt="" role="presentation" />
-            <p>Sedans</p>
-            <p>
+            <p class="title">Sedans</p>
+            <p class="description">
               Choose a sedan for its affordability and excellent fuel economy.
               Ideal for cruising in the city or on your next road trip.
             </p>
@@ -42,8 +50,8 @@
         <div class="card_container__card suv">
           <div class="content">
             <img src="./images/icon-suvs.svg" alt="" role="presentation" />
-            <p>SUVs</p>
-            <p>
+            <p class="title">SUVs</p>
+            <p class="description">
               Take an SUV for its spacious interior, power, and versatility.
               Perfect for your next family vacation and off-road adventures.
             </p>
@@ -53,8 +61,8 @@
         <div class="card_container__card luxury">
           <div class="content">
             <img src="./images/icon-luxury.svg" alt="" role="presentation" />
-            <p>Luxury</p>
-            <p>
+            <p class="title">Luxury</p>
+            <p class="description">
               Cruise in the best car brands without the bloated prices. Enjoy
               the enhanced comfort of a luxury rental and arrive in style.
             </p>
